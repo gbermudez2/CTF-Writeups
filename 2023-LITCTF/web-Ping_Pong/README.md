@@ -5,6 +5,7 @@ In this challenge, we are given a website that contains a field where we can inp
 
 
 We are also given a file download containing the elements of this host website.
+
 ![image](https://github.com/gbermudez2/CTF-Writeups/assets/32963758/be3bb26a-7524-4014-868f-1f9c0410c8d4)
 
 
@@ -19,15 +20,19 @@ I looked up methods to do field manipulation, when I stumbled upon the **CRLF In
 
 Knowing this, let's apply it to the problem by using **Burp Suite**.
 After sending the webpage traffic through the repeater, we find a field named *hostname*. Let's change this and add our own command, ls, to list all the files.
+
 ![image](https://github.com/gbermudez2/CTF-Writeups/assets/32963758/e5274585-b668-4c6a-9d4e-b023688dd507)
+
 (In URL encoding, \r\n = %0d%0a)
 
 
 As expected, this lists all the files in the webpage.
+
 ![image](https://github.com/gbermudez2/CTF-Writeups/assets/32963758/11ff7679-cffd-4643-a02a-6e1b138d15ae)
 
 
 Since we know it works, we can now replace ls with the cat command to read **flag.txt**.
+
 ![image](https://github.com/gbermudez2/CTF-Writeups/assets/32963758/76b89b18-402e-4c10-a6c1-cf7d88e6f058)
 
 
