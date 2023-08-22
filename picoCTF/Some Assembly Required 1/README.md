@@ -1,4 +1,4 @@
-### Some Assembly Required 1
+## Some Assembly Required 1
 
 ## Points: 70
 
