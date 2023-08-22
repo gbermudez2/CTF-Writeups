@@ -20,3 +20,5 @@ Using the *cat* command on the file reveals the flag.
 
 ![image](https://github.com/gbermudez2/CTF-Writeups/assets/32963758/5688159a-af27-4284-853b-75405c71d140)
 
+# Flag
+picoCTF{cb688c00b5a2ede7eaedcae883735759}
