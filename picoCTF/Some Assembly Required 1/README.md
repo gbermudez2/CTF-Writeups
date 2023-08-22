@@ -14,7 +14,7 @@ I open Inspect Element, and open the Network tab to see what is being posted.
 
 There's a suspiciously named file.
 
-I open terminal, download the file using *wget http://mercury.picoctf.net:40226/JIFxzHyW8W*.
+I open terminal and download the file using *wget http://mercury.picoctf.net:40226/JIFxzHyW8W*.
 
 Using the *cat* command on the file reveals the flag.
 
