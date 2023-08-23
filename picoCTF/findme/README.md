@@ -15,7 +15,7 @@ While the "Search for flags" field doesn't exactly return anything, it's best th
 
 If we navigate to the /login POST request, we can see a pretty interesting response.
 
-![image](https://github.com/gbermudez2/CTF-Writeups/assets/32963758/79e37b9f-cef4-456a-b6bf-21d7a90754f9)
+![image](https://github.com/gbermudez2/CTF-Writeups/assets/32963758/75a9f8df-baf2-4238-97d3-7fbb6788c5bd)
 
 ![image](https://github.com/gbermudez2/CTF-Writeups/assets/32963758/4ea091e8-969a-4876-a972-7ce44010fc10)
 
