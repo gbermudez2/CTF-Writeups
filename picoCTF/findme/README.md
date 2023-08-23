@@ -5,7 +5,7 @@ Opening the website given to us, we are treated to a login screen.
 
 ![image](https://github.com/gbermudez2/CTF-Writeups/assets/32963758/a8a2c01d-5189-4d41-a1c1-260af626d46a)
 
-The challenge gave us the credentials *test* and *test!* for username and password respectively.
+The challenge gave us the credentials *test* and *test!* for the username and password respectively.
 
 Afterwards, we are treated to this page.
 
